@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.google.com/share?selection.family=Inter:wght@100;200;300;400;500;600;700;800;900">
+    <script src="script.js"></script>
+    <title>Decodificador ONE</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/Imagens/logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="sessao1">
+            <div class="conteudo1">
+                <textarea placeholder="Digite seu texto" class="caixadetexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="/Imagens/alerta.svg" alt="alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <input type="button" class="btn-criptografar" value="Criptografar">
+                <input type="button" class="btn-descriptografar" value="Descriptografar">
+            </div>
+        </section>
+        <section class="sessao2">
+            <div class="conteudoimagem">
+                <img src="/Imagens/boneco.svg" alt="boneco">
+            </div>
+                <div class="conteudoparagrafo">
+                    <h3>Nenhuma mensagem <br>encontrada</h3> 
+                    <p>Digite um texto que você deseja criptografar <br>ou descriptografar.
+                    </p>
+                </div>
+                <div class="copiartexto">
+                    <input type="button" class="btn-copiar" value="Copiar">
+                </div>
+                <div class="resultado">
+                    <p class="textoresultado"></p>
+                </div>
+        </section>
+    </main>
+    
+</body>
+</html>
